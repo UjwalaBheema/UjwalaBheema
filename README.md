@@ -39,7 +39,7 @@ Before that: **Cerner** (FHIR and HL7 interoperability, API design), **Rakuten**
 
 ## How I work
 
-| | |
+| Role | What it covers |
 | --- | --- |
 | **Lead** | Hiring, performance management, roadmaps, sprint execution, cross-geo teams, clear trade-offs for senior leadership |
 | **Architect** | Event-driven and distributed systems on AWS (Lambda, Kinesis, API Gateway, EC2), REST APIs, microservices, performance and scalability |
@@ -70,9 +70,10 @@ flowchart LR
 
 | Project | What it shows |
 | --- | --- |
+| [aws-event-driven-ingestion-reference](https://github.com/UjwalaBheema/aws-event-driven-ingestion-reference) | Tested reference architecture for multi-tenant event ingestion: API Gateway, Lambda, Kinesis, DynamoDB, idempotent consumers, dead-letter queue, decision record |
 | [rag-genai-assignments](https://github.com/UjwalaBheema/rag-genai-assignments) | RAG from first principles to working apps: vector databases, advanced retrieval, Gradio front ends, web-search-augmented answers |
 
-Architecture write-ups and reference implementations are being added.
+More reference implementations are on the way, including an evaluation-first RAG service and an engineering leadership playbook.
 
 <br>
 
